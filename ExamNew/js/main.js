@@ -1,5 +1,11 @@
 "use strict";
 
+var loader = document.getElementById("preLoader");
+
+function myFunction() {
+  loader.style.display = 'none';
+}
+
 $(".hamburger").click(function(){
   $(".hamburger").toggleClass("active");
   $(".wrap-menu-mobile").slideToggle();

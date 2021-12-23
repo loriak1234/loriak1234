@@ -80,11 +80,8 @@
   color: white;
 }
 
-
-
 /*   Tablet Devices   */
 @media screen and (max-width: 992px) {
-
   .wrap-menu-mobile {
     position: relative;
     background-color: white;
@@ -107,8 +104,15 @@
     height: 100%;
   }
 
+  /*   Section   */
+  .item-slide {
+    height: 470px;
+  }
 
-/*  Footer  */
+  .caption-arr {
+    font-size: 50px;
+  }
+  /*  Footer  */
   footer {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -124,13 +128,46 @@
 }
 
 /*   Mobile Devices   */
-@media screen and (max-width: 480px) {
-  /*   Header   */
-
-  .main-menu {
-    display: none;
+@media screen and (max-width: 576px) {
+/*   Section  */
+  /*  Banner   */
+  .item-slide {
+    height: 300px;
   }
 
+  .caption-col {
+    font-size: 16px;
+  }
+
+  .caption-arr {
+    font-size: 35px;
+  }
+
+  /*   Featured  */
+  .lookbook-span {
+    font-size: 25px;
+  }
+
+  .lookbook-h3 {
+    font-size: 40px;
+  }
+
+  /*   Shipping   */
+  .res-ship1 {
+    width: 100%;
+  }
+
+  .res-ship2 {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*   Header   */
   .header-cart {
     width: 300px;
   }
@@ -139,5 +176,78 @@
   .res4 {
     width: 100%;
   }
+}
 
+
+/*  *************************  */
+/*   Banner, Fetatured Section  */
+/*   Mobile   */
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .res83 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+/*   Tablet   */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .min768-33 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .min768-66 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .res-ban {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .res-fea {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .res-look {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+/*  PC  */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .res-ban {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .res-fea {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .res-look {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }

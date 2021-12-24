@@ -1,0 +1,168 @@
+.container-table-cart {
+  position: relative;
+  overflow: auto;
+}
+
+table {
+  font-family: Arial;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left
+}
+
+.table-cart {
+  border: 1px solid #d7d4d4;
+  width: 100%;
+  min-width: 992px;
+}
+
+.table-head {
+  background-color: #f34d35;
+  color: white;
+}
+
+.table-head th {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.table-row {
+  border-top: 1px solid #d7d4d4;
+}
+
+.table-row td {
+  color: #5c5757;
+  font-size: 17px;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #ececec;
+}
+
+.column-1 {
+  width: 220px;
+  padding: 30px 50px;
+}
+
+.column-1 img {
+  width: 130px;
+}
+
+.column-2 {
+  width: 280px;
+}
+
+.column-2 a {
+  font-size: 17px;
+}
+
+.column-3 {
+  width: 150px;
+}
+
+.column-4 {
+  width: 280px;
+}
+
+.column-5 {
+  width: 80px;
+}
+
+.cart-totals {
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 30px;
+  padding: 35px;
+  font-family: Arial;
+}
+
+.cart-totals h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.border-totals {
+  border-top: 1px dashed #878080;
+  border-bottom: 1px dashed #878080;
+}
+
+.proceedCO {
+  width: 100%;
+  height: 50px;
+}
+
+.but-proceedCO {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+  transition: all 0.4s;
+}
+
+.couponCode {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ececec;
+}
+
+.h3-coupon {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.couponCode-box {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ececec;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+.couponCode-box form {
+  width: 100%;
+  height: 100%;
+}
+
+.couponCode-box form input {
+  width: 100%;
+  height: 100%;
+}
+
+.couponCode-box input:focus {
+  /* box-shadow: inset 0px 0px 2px 0px rgb(201 196 196); */
+  box-shadow: 0 1px 10px rgb(0 0 0 / 20%);
+}
+
+.couponCode-apply {
+  width: 100%;
+  height: 45px;
+}
+
+.but-apply {
+  color: #666;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  text-shadow: 1px 1px 1px #fff;
+  transition: all .4s;
+}
+
+.but-apply:hover {
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%)
+}

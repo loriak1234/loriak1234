@@ -1,9 +1,0 @@
- #preLoader {
-   background: white url("../img/loader.gif") no-repeat center center;
-   background-size: 10%;
-   height: 100%;
-   width: 100%;
-   position: fixed;
-   z-index: 9999;
-   transition: all 0.3s ease-out;
- }

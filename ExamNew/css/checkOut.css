@@ -1,0 +1,73 @@
+
+table {
+  font-family: 'Montserrat', Arial;
+  border-collapse: collapse;
+
+}
+
+.container-order-table {
+  padding-left: 60px;
+  overflow: auto;
+}
+
+.table-row {
+  border: 1px solid #d7d4d4;
+}
+
+.table-row input {
+  color: #5c5757;
+  padding: 5px;
+}
+
+.column-1 {
+  width: 220px;
+  padding: 30px 50px;
+}
+
+.column-1 img {
+  width: 130px;
+}
+
+.input-name {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.column-2 {
+  padding-left: 10px;
+  width: 320px;
+}
+
+.column-2 span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5c5757;
+  padding: 5px;
+}
+
+.column-3 {
+  padding-left: 10px;
+  width: 300px;
+}
+
+.size-input {
+  font-size: 14px;
+  width: 15%;
+}
+
+.qty-input {
+  width: 10%;
+}
+
+.input-initialCost {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.table-row:nth-child(even) {
+  background-color: #ececec;
+}
+
+.table-row:nth-child(even) input {
+  background-color: #ececec;
+}
